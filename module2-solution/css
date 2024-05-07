@@ -1,0 +1,121 @@
+h1 {
+	text-align: center;
+  font-family: arial;
+  margin-bottom: 45px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+p {
+  width: 90%;
+  float: left;
+  margin: 25px;
+  padding: 0px;
+  background-color: lightgray;
+  height: 200px;
+  padding: 10px;
+  font-family: arial;
+
+}
+
+
+
+.button1 {
+  border: 1px solid black;
+  width: 100px;
+  font-weight: bold;
+  font-family: arial;
+  float: right;
+  height: 30px;
+  background-color: violet;
+
+}
+
+.button2 {
+  border: 1px solid black;
+  width: 100px;
+  font-weight: bold;
+  font-family: arial;
+  float: right;
+  height: 30px;
+  background-color: indianred;
+
+}
+
+.button3 {
+  border: 1px solid black;
+  width: 100px;
+  font-weight: bold;
+  font-family: arial;
+  float: right;
+  height: 30px;
+  background-color: lightblue;
+
+}
+
+
+.row {
+  width: 100%;
+  height: auto;
+}
+  
+  
+
+/***Large Devices***/
+
+@media (min-width: 1200px) {
+  .box {
+    float: left;
+    border: 1px solid green;
+  }
+
+  .box {
+  width: 31%;
+  height: auto;
+  border: 1px solid black;
+  float: left;
+  background-color: lightgray;
+  margin-right: 10px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
+}
+
+/***Medium Devices***/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .box2 {
+    float: left;
+    border: 1px solid green;
+  }
+
+  .box2 {
+  width: 50%;
+  height: auto;
+  border: 1px solid black;
+  float: left;
+  background-color: lightgray;
+  margin-right: 3px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
+}
+@media (max-width: 991px) {
+  .box3 {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  float: left;
+  background-color: lightgray;
+  margin-right: 3px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  }
+  }
+
